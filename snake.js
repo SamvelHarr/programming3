@@ -1,4 +1,4 @@
-class Snake {
+module.exports = class Snake {
     constructor(x, y) {
         this.stY = y
         this.x = x

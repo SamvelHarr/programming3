@@ -1,4 +1,10 @@
-class Spawner {
+var random = require("./random");
+var Grass = require("./grass");
+var GrassEater = require("./grassEater");
+var GrassSaver = require("./grassSaver");
+var Predator = require("./predator");
+
+module.exports = class Spawner {
     constructor(x, y) {
         this.x = x
         this.y = y

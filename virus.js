@@ -1,3 +1,5 @@
+var random = require("./random");
+
 class Virus {
     constructor(x, y) {
         this.x = x
